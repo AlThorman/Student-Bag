@@ -16,9 +16,9 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.ArrayList;
 public class StudentQueries {
-    public static final String URL = "jdbc:mysql://127.0.0.1:3306/OOP2 Project";
+    public static final String URL = "jdbc:mysql://127.0.0.1";
     public static final String USERNAME = "root";
-    public static final String PASSWORD = "Asy25874";
+    public static final String PASSWORD = "12345678";
     
     private Connection connection = null;
     private PreparedStatement selectAllStudent = null;
